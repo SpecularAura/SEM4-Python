@@ -1,4 +1,4 @@
-#stack_app/in_pre.py
+#in_pre.py
 from pythonds.basic.stack import Stack
 
 def in_pre(infixexpr):
@@ -34,3 +34,6 @@ def in_pre(infixexpr):
     
     prefixList.reverse()
     return " ".join(prefixList)
+
+
+print(in_pre("( A - B / C ) * ( A / K - L )"))

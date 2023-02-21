@@ -9,4 +9,4 @@ class AddLinkedList(BaseLinkedList):
             sum = sum + current.getData()
             current = current.getNext()
         
-        return sum
+        return sum;

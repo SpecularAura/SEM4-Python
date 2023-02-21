@@ -1,4 +1,4 @@
-#linedlist_ops/sample_ll.py
+#sample_ll.py
 from .sort_ll import LinkedList
 
 def SampleLinkedList():
