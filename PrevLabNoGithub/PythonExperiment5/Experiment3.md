@@ -13,58 +13,39 @@ geometry: left=2cm,right=2cm,top=2cm,bottom=2cm
 Name: Aum Kulkarni  
 RollNo: 36  
 Div: D6AD  
-**Experiment5**:
+**Prims Algorithm**:
 ```{.py include="driver.py" .numberLines}
 ```
 **Output:**
 ```
-298
-17 26 31 54 77 93
-* - A / B C - / A K L
--4
-Inserting 3 elements
-Queue Size: 3
-Queue Empty : False
-Insert one more element
-First Element: 4
-Second Element: True
-After dequeue two elements
-Queue size : 2
+0 - 2: 3
+2 - 3: 2
+3 - 4: 1
+3 - 1: 4
+
+Spanning tree cost: 10
 ```
-**Priority Queue**:
 ```{.py include="priorityqueue.py" .numberLines}
 ```
-
------  
-
-**stack_app module**:
 ```{.py include="stack_app/__init__.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="stack_app/in_pre.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="stack_app/post_eval.py" .numberLines}
 ```
-
------
-
-**linkedlist_ops module**:
-
+\newline
 ```{.py include="linkedlist_ops/__init__.py" .numberLines}
 ```
-&nbsp;
+
 ```{.py include="linkedlist_ops/node.py" .numberLines}
 ```
-&nbsp;
+\newline
 ```{.py include="linkedlist_ops/linkedlist.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/add_ll.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/sort_ll.py" .numberLines}
 ```
-&nbsp;
+
 ```{.py include="linkedlist_ops/sample_ll.py" .numberLines}
 ```

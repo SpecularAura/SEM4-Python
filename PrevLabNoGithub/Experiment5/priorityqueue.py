@@ -3,6 +3,7 @@ class Element:
         self.data = data
         self.priority = priority
 
+
 class Queue:
     def __init__(self):
         self.items = []

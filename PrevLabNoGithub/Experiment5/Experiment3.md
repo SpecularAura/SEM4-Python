@@ -31,40 +31,29 @@ Second Element: True
 After dequeue two elements
 Queue size : 2
 ```
-**Priority Queue**:
+&nbsp;
+
 ```{.py include="priorityqueue.py" .numberLines}
 ```
-
------  
-
-**stack_app module**:
+&nbsp;
 ```{.py include="stack_app/__init__.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="stack_app/in_pre.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="stack_app/post_eval.py" .numberLines}
 ```
-
------
-
-**linkedlist_ops module**:
+&nbsp;
 
 ```{.py include="linkedlist_ops/__init__.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/node.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/linkedlist.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/add_ll.py" .numberLines}
 ```
-&nbsp;
 ```{.py include="linkedlist_ops/sort_ll.py" .numberLines}
 ```
-&nbsp;
+
 ```{.py include="linkedlist_ops/sample_ll.py" .numberLines}
 ```

@@ -1,7 +1,7 @@
 from linkedlist_ops import LinkedList
 from linkedlist_ops import SampleLinkedList
 from stack_app import in_pre, post_eval
-from priorityqueue import Queue
+import priorityqueue
 mylist = SampleLinkedList()
 
 mylist.sort()
@@ -10,8 +10,9 @@ mylist.print_ll()
 
 print(in_pre("( A - B / C ) * ( A / K - L )"))
 print(post_eval("1 2 3 + -"))
+
 #Priority Queue Driver
-q=Queue()
+q=priorityqueue.Queue()
 print("Inserting 3 elements")
 q.enqueue(4, 1)
 q.enqueue('dog', 2)
