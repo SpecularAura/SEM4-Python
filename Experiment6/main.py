@@ -4,6 +4,7 @@ class LoginWindow(tk.Frame):
     def __init__(self, master=None):
         super().__init__(master)
         self.master = master
+        self.userList = {}
         self.attempts = 0
         self.create_widgets()
 
@@ -27,10 +28,19 @@ class LoginWindow(tk.Frame):
         self.login_button = tk.Button(self, text="Login", command=self.login)
         self.login_button.grid()
 
+        # Add User Button
+        self.add_user_button = tk.Button(self, text="New User", command=self.newuser)
+        self.add_user_button.grid()
+
         #Details
         self.secret_txt = tk.Text(self, width=35, height=5, wrap=tk.WORD)
-        self.secret_txt.grid(row=5, column=0, columnspan=2, sticky=tk.W)
-
+        self.secret_txt.grid(row=6, column=0, columnspan=2, sticky=tk.W)
+    def newuser(self):
+        self.master.withdraw()
+        new_window = tk.Toplevel(self.master)
+        new_window.title("Welcome!")
+        tk.Label(new_window, text="Hello To User Page!").grid()
+        pass
     def login(self):
         message = ""
         # Check the credentials
