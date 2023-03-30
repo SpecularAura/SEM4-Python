@@ -1,0 +1,8 @@
+<!-- registration/logged_out.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <p>You have been logged out!</p>
+  <p>Hope you had a good time</p>
+  <a href="{% url 'login'%}">Click here to login again.</a>
+{% endblock %}
